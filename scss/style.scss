@@ -133,7 +133,14 @@ text-decoration: none;
 .options-list a:hover {
     color: #6A983C;
 }
-
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-right {
+    display: flex;
+}
 
 
 
