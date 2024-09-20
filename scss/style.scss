@@ -65,7 +65,40 @@ body {
 .item-right a:hover {
     color: orange;
 }
+.search-part {
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
+.search-part-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 input {
     width: 500px;
     height: 42px;
+    border-radius: 12px;
+    border: 1px solid border #d1d1d1;
+    background-color: #f9f9f9;
+    padding-left: 160px;
+
 }
+.all {
+    //styleName: Button/Default;
+font-family: "Poppins";
+font-size: 15px;
+font-weight: 700;
+line-height: 22.5px;
+text-align: left;
+position: relative;
+bottom: 30px;
+left: 20px;
+}
+.search {
+    position: relative;
+    right: 250px;
+    bottom: 10px;
+}
+
+
