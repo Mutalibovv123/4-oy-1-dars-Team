@@ -16,6 +16,7 @@ body {
 
 .header {
     margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .header-container {
@@ -46,9 +47,11 @@ body {
 .nav-item a:hover {
     color: #6A983C;
 }
+
 .nav-right {
     @extend .nav-list
 }
+
 .item-right a {
     font-family: "Open Sans";
     font-size: 12px;
@@ -58,6 +61,8 @@ body {
     text-decoration: none;
     color: #6A983C;
 }
+
 .item-right a:hover {
-    color: #6A983C;
+    color: orange;
 }
+
