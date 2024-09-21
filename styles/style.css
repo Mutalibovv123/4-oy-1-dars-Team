@@ -547,18 +547,126 @@
                 width: 369px;
                 height: 96px;
                 display: flex;
+
+                .foods1 {
+                    width: 249px;
+                    height: 78px;
+                    margin-top: 10px;
+
+                    h3 {
+                        width: 225px;
+                        height: 46px;
+                        font-family: 'Poppins', 'sans-serif';
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: rgba(21, 21, 21, 1);
+                    }
+
+                    h3:hover {
+                        color: rgb(106, 152, 60);
+                    }
+
+                    p {
+                        height: 16px;
+                        font-family: 'Open Sans' 'sans-serif';
+                        font-weight: 500;
+                        font-size: 13px;
+                        color: rgba(21, 21, 21, 1);
+                        margin-top: 16px;
+                    }
+
+                    p:hover {
+                        color: rgb(106, 152, 60);
+                    }
+                }
+
+                img {
+                    cursor: pointer;
+                }
             }
 
             .food2 {
                 width: 369px;
                 height: 96px;
                 display: flex;
+
+                .foods2 {
+                    width: 249px;
+                    height: 78px;
+                    margin-top: 10px;
+
+                    h3 {
+                        width: 225px;
+                        height: 46px;
+                        font-family: 'Poppins', 'sans-serif';
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: rgba(21, 21, 21, 1);
+                    }
+
+                    h3:hover {
+                        color: rgb(106, 152, 60);
+                    }
+
+                    p {
+                        height: 16px;
+                        font-family: 'Open Sans' 'sans-serif';
+                        font-weight: 500;
+                        font-size: 13px;
+                        color: rgba(21, 21, 21, 1);
+                        margin-top: 16px;
+                    }
+
+                    p:hover {
+                        color: rgb(106, 152, 60);
+                    }
+                }
+
+                img {
+                    cursor: pointer;
+                }
             }
 
             .food3 {
                 width: 369px;
                 height: 96px;
                 display: flex;
+
+                .foods3 {
+                    width: 249px;
+                    height: 78px;
+                    margin-top: 10px;
+
+                    h3 {
+                        width: 225px;
+                        height: 46px;
+                        font-family: 'Poppins', 'sans-serif';
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: rgba(21, 21, 21, 1);
+                    }
+
+                    h3:hover {
+                        color: rgb(106, 152, 60);
+                    }
+
+                    p {
+                        height: 16px;
+                        font-family: 'Open Sans' 'sans-serif';
+                        font-weight: 500;
+                        font-size: 13px;
+                        color: rgba(21, 21, 21, 1);
+                        margin-top: 16px;
+                    }
+
+                    p:hover {
+                        color: rgb(106, 152, 60);
+                    }
+                }
+
+                img {
+                    cursor: pointer;
+                }
             }
         }
     }
