@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.hero {
+    .logo {
+        width: 1170px;
+        height: 38px;
+        margin-top: 35px;
+        display: flex;
+        gap: 10px;
+    
+        .title1 {
+            width: 180px;
+            height: 27px;
+            margin-top: 6px;
+            font-family: 'Poppins', 'sans-serif';
+            font-weight: 600;
+            font-size: 20px;
+            color: rgba(21, 21, 21, 1);
+        }
+    
+        .title2 {
+            width: 52px;
+            height: 23px;
+            margin-top: 8px;
+            font-family: 'Poppins', 'sans-serif';
+            font-weight: 700;
+            font-size: 17px;
+            margin-left: 905px;
+        }
+    
+        img {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            margin-top: 7px;
+        }
+    }
+
+    .products {
+        width: 1170px;
+        height: 332px;
+        display: flex;
+        gap: 32px;
+        margin-top: 30px;
+
+        .product1 {
+            width: 268px;
+            height: 323px;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            img {
+                width: 236px;
+                height: 180px;
+                cursor: pointer;
+            }
+
+            h4 {
+                width: 251px;
+                height: 23px;
+                font-family: 'Poppins', 'sans-serif';
+                font-weight: 600;
+                font-size: 17px;
+                margin-top: 13px;
+                margin-left: 5px;
+                color: rgba(21, 21, 21, 1);
+            }
+
+            h4:hover {
+                color: rgb(106, 152, 60);
+            }
+
+            p {
+                width: 251px;
+                height: 16px;
+                font-family: 'Open Sans' 'sans-serif';
+                font-weight: 400;
+                font-size: 14px;
+                color: rgba(87, 87, 87, 1);
+                margin-left: 5px;
+            }
+
+            p:hover {
+                color: rgb(106, 152, 60);
+            }
+
+            .price {
+                display: flex;
+                margin-left: 6px;
+                gap: 10px;
+                margin-top: 20px;
+
+                h2 {
+                    width: 100px;
+                    height: 27px;
+                    margin-top: 5px;
+                    font-family: 'Poppins', 'sans-serif';
+                    font-weight: 600;
+                    font-size: 19px;
+                    color: rgba(21, 21, 21, 1);
+                }
+
+                h2:hover {
+                    color: rgb(106, 152, 60);
+                }
+
+                .btn {
+                    width: 90px;
+                    height: 36px;
+                    border: none;
+                    margin-left: 55px;
+                    border-radius: 12px;
+                    border: 2px solid rgba(70, 118, 10, 1);
+                    color: rgba(255, 255, 255, 1);
+                    font-family: 'Poppins', 'sans-serif';
+                    font-weight: 700;
+                    background-color: rgb(106, 152, 60);
+                    padding: 2px;
+                    font-size: 15px;
+                }
+
+                .btn:hover {
+                    background-color: #fff;
+                    color: rgba(70, 118, 10, 1);
+                    border: none;
+                    border: 2px solid rgb(106, 152, 60);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .product2 {
+            width: 268px;
+            height: 323px;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            img {
+                width: 236px;
+                height: 180px;
+                cursor: pointer;
+            }
+
+            h4 {
+                width: 251px;
+                height: 23px;
+                font-family: 'Poppins', 'sans-serif';
+                font-weight: 600;
+                font-size: 17px;
+                margin-top: 13px;
+                margin-left: 5px;
+                color: rgba(21, 21, 21, 1);
+            }
+
+            h4:hover {
+                color: rgb(106, 152, 60);
+            }
+
+            p {
+                width: 251px;
+                height: 16px;
+                font-family: 'Open Sans' 'sans-serif';
+                font-weight: 400;
+                font-size: 14px;
+                color: rgba(87, 87, 87, 1);
+                margin-left: 5px;
+            }
+
+            p:hover {
+                color: rgb(106, 152, 60);
+            }
+
+            .price {
+                display: flex;
+                margin-left: 6px;
+                gap: 10px;
+                margin-top: 20px;
+
+                h2 {
+                    width: 100px;
+                    height: 27px;
+                    margin-top: 5px;
+                    font-family: 'Poppins', 'sans-serif';
+                    font-weight: 600;
+                    font-size: 19px;
+                    color: rgba(21, 21, 21, 1);
+                }
+
+                h2:hover {
+                    color: rgb(106, 152, 60);
+                }
+
+                .btn {
+                    width: 90px;
+                    height: 36px;
+                    border: none;
+                    margin-left: 55px;
+                    border-radius: 12px;
+                    border: 2px solid rgba(70, 118, 10, 1);
+                    color: rgba(255, 255, 255, 1);
+                    font-family: 'Poppins', 'sans-serif';
+                    font-weight: 700;
+                    background-color: rgb(106, 152, 60);
+                    padding: 2px;
+                    font-size: 15px;
+                }
+
+                .btn:hover {
+                    background-color: #fff;
+                    color: rgba(70, 118, 10, 1);
+                    border: none;
+                    border: 2px solid rgb(106, 152, 60);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .product3 {
+            width: 268px;
+            height: 323px;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            img {
+                width: 236px;
+                height: 180px;
+                cursor: pointer;
+            }
+
+            h4 {
+                width: 251px;
+                height: 23px;
+                font-family: 'Poppins', 'sans-serif';
+                font-weight: 600;
+                font-size: 17px;
+                margin-top: 13px;
+                margin-left: 5px;
+                color: rgba(21, 21, 21, 1);
+            }
+
+            h4:hover {
+                color: rgb(106, 152, 60);
+            }
+
+            p {
+                width: 251px;
+                height: 16px;
+                font-family: 'Open Sans' 'sans-serif';
+                font-weight: 400;
+                font-size: 14px;
+                color: rgba(87, 87, 87, 1);
+                margin-left: 5px;
+            }
+
+            p:hover {
+                color: rgb(106, 152, 60);
+            }
+
+            .price {
+                display: flex;
+                margin-left: 6px;
+                gap: 10px;
+                margin-top: 20px;
+
+                h2 {
+                    width: 100px;
+                    height: 27px;
+                    margin-top: 5px;
+                    font-family: 'Poppins', 'sans-serif';
+                    font-weight: 600;
+                    font-size: 19px;
+                    color: rgba(21, 21, 21, 1);
+                }
+
+                h2:hover {
+                    color: rgb(106, 152, 60);
+                }
+
+                .btn {
+                    width: 90px;
+                    height: 36px;
+                    border: none;
+                    margin-left: 55px;
+                    border-radius: 12px;
+                    border: 2px solid rgba(70, 118, 10, 1);
+                    color: rgba(255, 255, 255, 1);
+                    font-family: 'Poppins', 'sans-serif';
+                    font-weight: 700;
+                    background-color: rgb(106, 152, 60);
+                    padding: 2px;
+                    font-size: 15px;
+                }
+
+                .btn:hover {
+                    background-color: #fff;
+                    color: rgba(70, 118, 10, 1);
+                    border: none;
+                    border: 2px solid rgb(106, 152, 60);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .product4 {
+            width: 268px;
+            height: 323px;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            img {
+                width: 236px;
+                height: 180px;
+                cursor: pointer;
+            }
+
+            h4 {
+                width: 251px;
+                height: 23px;
+                font-family: 'Poppins', 'sans-serif';
+                font-weight: 600;
+                font-size: 17px;
+                margin-top: 13px;
+                margin-left: 5px;
+                color: rgba(21, 21, 21, 1);
+            }
+
+            h4:hover {
+                color: rgb(106, 152, 60);
+            }
+
+            p {
+                width: 251px;
+                height: 16px;
+                font-family: 'Open Sans' 'sans-serif';
+                font-weight: 400;
+                font-size: 14px;
+                color: rgba(87, 87, 87, 1);
+                margin-left: 5px;
+            }
+
+            p:hover {
+                color: rgb(106, 152, 60);
+            }
+
+            .price {
+                display: flex;
+                margin-left: 6px;
+                gap: 10px;
+                margin-top: 20px;
+
+                h2 {
+                    width: 100px;
+                    height: 27px;
+                    margin-top: 5px;
+                    font-family: 'Poppins', 'sans-serif';
+                    font-weight: 600;
+                    font-size: 19px;
+                    color: rgba(21, 21, 21, 1);
+                }
+
+                h2:hover {
+                    color: rgb(106, 152, 60);
+                }
+
+                .btn {
+                    width: 90px;
+                    height: 36px;
+                    border: none;
+                    margin-left: 55px;
+                    border-radius: 12px;
+                    border: 2px solid rgba(70, 118, 10, 1);
+                    color: rgba(255, 255, 255, 1);
+                    font-family: 'Poppins', 'sans-serif';
+                    font-weight: 700;
+                    background-color: rgb(106, 152, 60);
+                    padding: 2px;
+                    font-size: 15px;
+                }
+
+                .btn:hover {
+                    background-color: #fff;
+                    color: rgba(70, 118, 10, 1);
+                    border: none;
+                    border: 2px solid rgb(106, 152, 60);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+.nav {
+    width: 1260px;
+    height: 596px;
+    padding: 64px, 45px, 64px, 45px;
+
+    .logo2 {
+        width: 1170px;
+        height: 36px;
+        margin-top: 100px;
+        display: flex;
+        gap: 10px;
+
+        .title3 {
+            width: 210px;
+            height: 27px;
+            margin-top: 5px;
+            font-family: 'Poppins', 'sans-serif';
+            font-weight: 600;
+            font-size: 20px;
+            color: rgba(21, 21, 21, 1);
+            margin-left: 3px;
+        }
+
+        .title4 {
+            width: 98px;
+            height: 23px;
+            margin-top: 5px;
+            font-family: 'Poppins', 'sans-serif';
+            font-weight: 700;
+            font-size: 17px;
+            margin-left: 815px;
+            position: relative;
+            left: 18px;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            margin-top: 7px;
+            position: relative;
+            bottom: 2px;
+        }
+    }
+
+    .data {
+        width: 1170px;
+        height: 400px;
+        display: flex;
+        gap: 35px;
+
+        .about1 {
+            width: 469px;
+            height: 400px;
+            margin-top: 60px;
+            cursor: pointer;
+        }
+
+        .about2 {
+            width: 269px;
+            height: 363px;
+            margin-top: 60px;
+
+            img {
+                width: 269px;
+                height: 180px;
+            }
+
+            h4 {
+                width: 64px;
+                height: 18px;
+                font-family: 'Poppins', 'sans-serif';
+                font-weight: 600;
+                font-size: 13px;
+                color: rgba(106, 152, 60, 1);
+                margin-top: 15px;
+                margin-left: 5px;
+            }
+
+            h4:hover {
+                color: rgba(21, 21, 21, 1);
+            }
+
+            h2 {
+                width: 297px;
+                height: 81px;
+                font-family: 'Poppins', 'sans-serif';
+                font-weight: 700;
+                font-size: 18px;
+                color: rgba(21, 21, 21, 1);
+                margin-top: 10px;
+            }
+
+            h2:hover {
+                color: rgba(106, 152, 60, 1);
+            }
+
+            .text {
+                width: 116px;
+                height: 16px;
+                display: flex;
+                gap: 10px;
+
+                .text1 {
+                    width: 39px;
+                    height: 16px;
+                    font-family: 'Open Sans' 'sans-serif';
+                    font-weight: 500;
+                    font-size: 13px;
+                    color: rgba(21, 21, 21, 1);
+                }
+
+                .text1:hover {
+                    color: rgba(106, 152, 60, 1);
+                }
+
+                .text2 {
+                    width: 61px;
+                    height: 16px;
+                    font-family: 'Open Sans' 'sans-serif';
+                    font-weight: 500;
+                    font-size: 13px;
+                    color: rgba(21, 21, 21, 1);
+                }
+
+                .text2:hover {
+                    color: rgba(106, 152, 60, 1);
+                }
+            }
+        }
+
+        .about3 {
+            width: 369px;
+            height: 352px;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+
+            .food1 {
+                width: 369px;
+                height: 96px;
+                display: flex;
+
+                .foods1 {
+                    width: 249px;
+                    height: 78px;
+                    margin-top: 10px;
+
+                    h3 {
+                        width: 225px;
+                        height: 46px;
+                        font-family: 'Poppins', 'sans-serif';
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: rgba(21, 21, 21, 1);
+                    }
+
+                    h3:hover {
+                        color: rgb(106, 152, 60);
+                    }
+
+                    p {
+                        height: 16px;
+                        font-family: 'Open Sans' 'sans-serif';
+                        font-weight: 500;
+                        font-size: 13px;
+                        color: rgba(21, 21, 21, 1);
+                        margin-top: 16px;
+                    }
+
+                    p:hover {
+                        color: rgb(106, 152, 60);
+                    }
+                }
+
+                img {
+                    cursor: pointer;
+                }
+            }
+
+            .food2 {
+                width: 369px;
+                height: 96px;
+                display: flex;
+
+                .foods2 {
+                    width: 249px;
+                    height: 78px;
+                    margin-top: 10px;
+
+                    h3 {
+                        width: 225px;
+                        height: 46px;
+                        font-family: 'Poppins', 'sans-serif';
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: rgba(21, 21, 21, 1);
+                    }
+
+                    h3:hover {
+                        color: rgb(106, 152, 60);
+                    }
+
+                    p {
+                        height: 16px;
+                        font-family: 'Open Sans' 'sans-serif';
+                        font-weight: 500;
+                        font-size: 13px;
+                        color: rgba(21, 21, 21, 1);
+                        margin-top: 16px;
+                    }
+
+                    p:hover {
+                        color: rgb(106, 152, 60);
+                    }
+                }
+
+                img {
+                    cursor: pointer;
+                }
+            }
+
+            .food3 {
+                width: 369px;
+                height: 96px;
+                display: flex;
+
+                .foods3 {
+                    width: 249px;
+                    height: 78px;
+                    margin-top: 10px;
+
+                    h3 {
+                        width: 225px;
+                        height: 46px;
+                        font-family: 'Poppins', 'sans-serif';
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: rgba(21, 21, 21, 1);
+                    }
+
+                    h3:hover {
+                        color: rgb(106, 152, 60);
+                    }
+
+                    p {
+                        height: 16px;
+                        font-family: 'Open Sans' 'sans-serif';
+                        font-weight: 500;
+                        font-size: 13px;
+                        color: rgba(21, 21, 21, 1);
+                        margin-top: 16px;
+                    }
+
+                    p:hover {
+                        color: rgb(106, 152, 60);
+                    }
+                }
+
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
